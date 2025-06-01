@@ -190,13 +190,22 @@ p {
   section {
     padding: 2rem;
   }
-  /*footer personalizado básico*/
+
+  /*footer*/
   .footer-font-color{
      background: #69228b;
   }
 
-  /*gatito*/
-       .cat-container {
+   footer {
+    background: #69228b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /*Cookie*/
+    .cat-container {
       position: relative;
       display: block;
       margin-left: auto;
@@ -230,11 +239,4 @@ p {
       100% { transform: rotate(10deg); }
     }
 
-  footer {
-    background: #69228b;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
-  }
-  
+ 
